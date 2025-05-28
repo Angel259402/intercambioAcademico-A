@@ -308,3 +308,16 @@ footer{
     margin-bottom: 40px;
     color: #333;
   }
+
+  .boton2{
+    display: inline-block;
+    background-color: rgb(7, 13, 187);
+    color: black;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 400;
+    border-radius: 10px;
+    margin: 25px;
+    padding: 25px;
+    left: 3000px;
+}
