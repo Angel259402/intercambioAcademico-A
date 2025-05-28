@@ -24,3 +24,19 @@ const aparecerImagen = (imagen)=>{
 }
 
 
+
+window.addEventListener('load', () => {
+  const ruta = window.location.pathname.toLowerCase();
+
+  if (ruta.includes("intercambio academico nacional.html")) {
+    alert("Explora tus opciones de intercambio académico nacional.");
+  } else if (ruta.includes("intercambio academico internacional.html")) {
+    alert("¡Prepárate para una experiencia internacional con el intercambio académico!");
+  } else {
+    // Asumimos que es la página principal o cualquier otra sección
+    alert("¡Bienvenido a la sección de Intercambio Académico!");
+  }
+});
+
+
+
